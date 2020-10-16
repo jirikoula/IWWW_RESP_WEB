@@ -1,0 +1,100 @@
+/* [HLAVICKA / MENU] */
+#menu {
+    background-color: dodgerblue;
+    justify-content: space-between;
+    display:flex;
+    padding: 10px;
+}
+
+#menu a {
+    margin-right: 30px;
+    font-size: 40px;
+    color:white;
+    text-decoration-line: none;
+    text-shadow: 1px 1px 1px black;
+    font-family: Arial;
+}
+
+.logo > a img {
+    height: 80px;
+    border-radius: 25%;
+    margin: 0;
+}
+
+
+#nav {
+    padding: 20px;
+}
+
+/* [HERO] */
+.nadpis {
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    padding-top: 150px;
+    text-shadow: 2px 2px 9px black;
+    margin: 0px;
+}
+
+#hero {
+    background-image: url("../IMG/maledivy_titulka.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* [SECTION] */
+
+.body_index {
+    margin:0px;
+}
+
+h2 {
+    color:dodgerblue;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 45px;
+}
+
+.galerie {
+    margin: auto;
+}
+
+#obrazky_galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.obrazek_galerie > a img {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+
+/* [PATICKA] */
+
+footer {
+    background-color: dodgerblue;
+    justify-content: center;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+footer a {
+    color:white;
+    text-decoration-line: none;
+    font-size: 17px;
+}
+
+.paticka_nadpis > a {
+    color:white;
+    font-size: 25px;
+    font-family: Arial;
+    text-decoration-line: none;
+    text-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotely Maledivy</title>
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="CSS/stylesheet_responsive.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class ="body_index">
+
+<div id="menu">
+    <div class="logo">
+        <a href="index.html"><img id="logo" src="IMG/logo_maledivy.png" alt="logo stránky"></a>
+    </div>
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+
+    <nav id="nav">
+        <a href="index.html">GALERIE</a>
+        <a href="form.html">KONTAKT</a>
+    </nav>
+</div>
+<section class="formular_sekce">
+    <h2>Dotaz k zájezdu</h2>
+    <form action="index.html">
+        <div class="radek_formular">
+            <label class="label_formular">Jméno: </label>
+            <input type="text">
+        </div>
+        <div class="radek_formular">
+            <label class="label_formular">Příjmení: </label>
+            <input type="text">
+        </div>
+        <div class="radek_formular">
+            <label class="label_formular">Email: </label>
+            <input type="text">
+        </div>
+        <div class="radek_formular">
+            <label class="label_formular">Telefonní číslo: </label>
+            <input type="text">
+        </div>
+        <div class="radek_formular">
+            <label class="label_formular">Destinace: </label>
+            <select id="destinace" name="destinace">
+                <option value="Addu Atol">Addu Atol</option>
+                <option value="Baa Atol">Baa Atol</option>
+                <option value="Male Atol">Male Atol</option>
+                <option value="Raa Atol">Raa Atol</option>
+                <option value="Rasdu Atol">Rasdu Atol</option>
+            </select>
+        </div>
+        <div class="radek_formular_radio">
+            <label class="label_formular">Typ zájezdu: </label>
+            <input type="radio" id="radiobutton_typ_vlastni" name="skupina">
+            <label class="label_radiobutton" for="radiobutton_typ_vlastni">Vlastní doprava</label>
+            <input type="radio" id="radiobutton_typ_letecky" name="skupina">
+            <label class="label_radiobutton" for="radiobutton_typ_letecky">Letecky</label>
+            <input type="radio" id="radiobutton_typ_autobus" name="skupina">
+            <label class="label_radiobutton" for="radiobutton_typ_autobus">Autobus</label>
+        </div>
+        <div class="radek_formular">
+            <label class="label_formular">Dotaz: </label>
+            <textarea id="textarea"></textarea>
+        </div>
+        <div class="radek_formular">
+            <input id="submit" type="submit">
+        </div>
+    </form>
+</section>
+<footer>
+    <div>
+        <span class="paticka_nadpis"><a href="#">Cestovní kanceláře</a></span>
+        <ul>
+            <li><a href="#">BlueStyle</a></li>
+            <li><a href="#">Fischer</a></li>
+            <li><a href="#">EximTours</a></li>
+            <li><a href="#">SunnyDays</a></li>
+            <li><a href="#">Invia</a></li>
+        </ul>
+    </div>
+    <div>
+        <span class="paticka_nadpis"><a href="#">Pobočky</a></span>
+        <ul>
+            <li><a href="#">Praha 4</a></li>
+            <li><a href="#">Praha 10</a></li>
+            <li><a href="#">Kolín</a></li>
+            <li><a href="#">Pardubice</a></li>
+            <li><a href="#">Brno</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

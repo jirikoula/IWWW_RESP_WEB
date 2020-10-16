@@ -1,0 +1,62 @@
+/* [RESPONZIVNÍ ZOBRAZENÍ] */
+/* [HLAVICKA / MENU] */
+@media screen and (max-width: 834px) {
+
+    #menu a {
+        margin-right: 10px;
+        font-size: 20px;
+        color:white;
+        text-decoration-line: none;
+        text-shadow: 1px 1px 1px black;
+        font-family: Arial;
+    }
+
+    /* [HERO] */
+    #hero {
+        background-image: url("../IMG/maledivy_titulka.jpg");
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nadpis {
+        text-align: center;
+        color:white;
+        font-size: 45px;
+        padding-top: 100px;
+        text-shadow: 2px 2px 9px black;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    /* [SECTION] */
+
+    h2 {
+        color:dodgerblue;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .obrazek_galerie > a img {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .obrazek_galerie > img {
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    /* [PATICKA] */
+
+    footer {
+        background-color: dodgerblue;
+        justify-content: center;
+        color:white;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,83 @@
+/* [RESPONZIVNÍ ZOBRAZENÍ - 1X VELKÝ OBRÁZEK] */
+.obrazek_galerie > img{
+    width: 1400px;
+    height: 900px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .obrazek_galerie > img {
+        width: 1000px;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #menu {
+        background-color: dodgerblue;
+        justify-content: space-between;
+        display:flex;
+    }
+
+    #menu a {
+        margin-right: 10px;
+        font-size: 20px;
+        color:white;
+        text-decoration-line: none;
+        text-shadow: 1px 1px 1px black;
+        font-family: Arial;
+    }
+
+    #hero {
+        background-image: url("../IMG/maledivy_titulka.jpg");
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nadpis {
+        text-align: center;
+        color:white;
+        font-size: 45px;
+        padding-top: 100px;
+        text-shadow: 2px 2px 9px black;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    h2 {
+        color:dodgerblue;
+        text-shadow: 1px 1px 1px black;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .galerie {
+        margin: auto;
+    }
+
+    .galerie {
+        padding-bottom: 30px;
+    }
+    .obrazek_galerie > a img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .obrazek_galerie > img {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    footer {
+        background-color: dodgerblue;
+        justify-content: center;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+}
